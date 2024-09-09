@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas as pd
-from sklearn.prepr
+from sklearn.preprocessing import StandardScaler
+from sklearn.cluster import KMeans
+import plotly.express as px
 
 #Streamlit de presentación, con titulo y resumen de proyecto
 
