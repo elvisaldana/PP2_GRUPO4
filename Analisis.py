@@ -1,4 +1,6 @@
 import streamlit as st
+import pandas as pd
+from sklearn.prepr
 
 #Streamlit de presentación, con titulo y resumen de proyecto
 
