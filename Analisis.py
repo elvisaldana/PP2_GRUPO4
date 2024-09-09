@@ -25,11 +25,18 @@ st.image(image, caption="Dengue", use_column_width=True)
 st.header("Key Performance Indicators (KPIs)")
 
 st.write("""
-- **KPI 1: Tasa de Crecimiento Anual de la Población:** Esta métrica calcula el porcentaje de cambio en la población de un país de un año a otro, lo que nos ayuda a entender la velocidad de crecimiento o decrecimiento de la población.
+- **KPI 1: Precisión del Modelo Predictivo:** Esta métrica Mide la exactitud de las predicciones del modelo en comparación con los casos reales de dengue observados.
+    Objetivo: Un alto valor de precisión (idealmente superior al 80%) indica que el modelo es confiable para predecir la incidencia de dengue.
+    Importancia: Permite evaluar la capacidad del modelo para realizar predicciones correctas y es fundamental para la toma de decisiones en salud pública.
 
-- **KPI 2: Países con Mayor Crecimiento Poblacional:** Este KPI identifica los países que experimentan el mayor crecimiento poblacional en un período específico. Nos permite identificar las áreas con un crecimiento demográfico significativo.
+- **KPI 2: Tiempo de Respuesta para la Implementación de Intervenciones:** Mide el tiempo que toma desde que el modelo predice un aumento en los casos de dengue hasta que se implementan medidas preventivas en la región.
+    Objetivo: Minimizar el tiempo de respuesta para garantizar que las medidas preventivas se implementen de manera oportuna, reduciendo así el impacto del brote.
+    Importancia: Un tiempo de respuesta corto es crucial para mitigar el impacto de los brotes de dengue.
 
-- **KPI 3: Crecimiento Poblacional Anual Promedio:** Esta métrica calcula el crecimiento promedio de la población de todos los países durante un período determinado, proporcionando una visión general del crecimiento demográfico global.
+- **KPI 3: Reducción de la Incidencia de Casos de Dengue tras la Implementación de Medidas** Esta métrica Mide la efectividad de las medidas preventivas implementadas tras la predicción de un brote, comparando la incidencia de casos antes y después de la intervención..
+    Objetivo: Maximizar la reducción de casos de dengue después de la intervención, idealmente acercándose al 100%.
+    Importancia: Indica el impacto directo de las predicciones y las acciones tomadas, ayudando a evaluar la efectividad de las estrategias preventivas.
+
 """)
 
 
